@@ -42,7 +42,7 @@ print(gis)
 ## Plot the results
 1. Plot the polygons using ```plot(spdf)```.
 2. Plot the polygons symbolized by the "TOTPOP_CY" attribute using ```spplot(spdf, 'TOTPOP_CY')```
-![](https://github.com/EsriPS/aRcgis/blob/main/nj.png)
+![](https://github.com/gbrunner/arcgis-r-demos/blob/main/nj.png)
 
 ## Add results to Leaflet map in RStudio
 1. Import the **leaflet** library: ```library(leaflet)```.
@@ -55,5 +55,5 @@ leaflet(spdf) %>%
                  fillColor = ~pal(log10(TOTPOP_CY)),
                  label = ~paste0(TOTPOP_CY, ": ", formatC(TOTPOP_CY, big.mark = ",")))
 ```
-![](https://github.com/EsriPS/aRcgis/blob/main/nj_leaflet.png)
+![](https://github.com/gbrunner/arcgis-r-demos/blob/main/nj_leaflet.png)
 
