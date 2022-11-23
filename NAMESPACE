@@ -1,0 +1,6 @@
+exportPattern("^[[:alpha:]]+")
+import(httr)
+import(rgdal)
+import(sp)
+import(jsonlite)
+import(geojsonio)

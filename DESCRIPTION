@@ -1,0 +1,14 @@
+Package: arcgis
+Type: Package
+Title: An API to interface with ArcGIS Online.
+Version: 0.2.0
+Author: Gregory Brunner
+Maintainer: Gregory Brunner <gbrunner@esri.com>
+Description: This package is a prototype for the ArcGIS API for R.
+	It contains functions to connect to ArcGIS Online, 
+	search for content, and read a service into a dataframe,
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports: httr,rgdal,sp,jsonlite,geojsonio
+RoxygenNote: 7.1.1
