@@ -53,12 +53,12 @@ server <- function(input, output, session) {
   gis <- new("GIS",
              url="https://learngis.maps.arcgis.com/",
              username = "gbrunner_LearnGIS",
-             password = "Pirates##2020")
+             password = "pw")
 
   #gis <- new("GIS",
   #           url="https://slustl.maps.arcgis.com/",
   #           username = "gregbrunner_slugis",
-  #           password = "100%BlueGatorade")
+  #           password = "pw")
 
   gis <- login(gis)
 
